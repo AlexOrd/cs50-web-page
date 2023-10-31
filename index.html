@@ -5,15 +5,21 @@
     <title>Резюме Ярового Андрія Анатолійовича</title>
     <style>
       body {
-        background-color: #000000;
-        color: #ffffff;
-        font-family: sans-serif;
-        font-size: 16px;
+        background-image: url("https://vntu.edu.ua/images/dp.jpg"); /* Додано зображення фону */
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #333;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
       }
 
       h1 {
         text-align: center;
-        font-size: 24px;
+        font-size: 28px;
+        color: #333;
+        margin-top: 20px;
       }
 
       p {
@@ -21,21 +27,24 @@
       }
 
       .container {
-        width: 600px;
+        max-width: 800px;
         margin: 0 auto;
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.9
+        ); /* Змінено фон контейнера, щоб зробити його прозорим */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
 
       .row {
         display: flex;
         justify-content: space-between;
         align-items: center;
-      }
-
-      .img {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        margin-bottom: 10px;
+        margin-top: 20px;
       }
 
       .info {
@@ -44,28 +53,19 @@
       }
 
       .name {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
       }
 
       .position {
-        font-size: 16px;
+        font-size: 20px;
       }
 
-      .education {
-        font-size: 14px;
-      }
-
-      .awards {
-        font-size: 14px;
-      }
-
-      .publications {
-        font-size: 14px;
-      }
-
+      .education,
+      .awards,
+      .publications,
       .skills {
-        font-size: 14px;
+        font-size: 16px;
       }
     </style>
   </head>
@@ -74,10 +74,7 @@
       <h1>Резюме Ярового Андрія Анатолійовича</h1>
       <div class="row">
         <div class="img">
-          <img
-            src="https://avatars.githubusercontent.com/u/12345678?v=4"
-            alt="Фото Ярового Андрія Анатолійовича"
-          />
+          <!-- Видалено посилання на зображення -->
         </div>
         <div class="info">
           <h2 class="name">Яровий Андрій Анатолійович</h2>
